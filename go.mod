@@ -1,6 +1,6 @@
 module github.com/poupas/ethdont
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/herumi/bls-eth-go-binary v1.29.1
@@ -12,7 +12,7 @@ require (
 	github.com/wealdtech/go-eth2-wallet-store-filesystem v1.17.1
 	github.com/wealdtech/go-eth2-wallet-store-scratch v1.7.1
 	github.com/wealdtech/go-eth2-wallet-types/v2 v2.10.1
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
@@ -31,7 +31,7 @@ require (
 	github.com/wealdtech/go-eth2-wallet-hd/v2 v2.6.1 // indirect
 	github.com/wealdtech/go-eth2-wallet-store-s3 v1.11.3 // indirect
 	github.com/wealdtech/go-indexer v1.0.1 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
